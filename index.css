@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  height: 100vh;
+
+  font-family: 'Spectral', serif;
+
+  text-align: center;
+
+  background-image: url(https://i.imgur.com/AEUspz8.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(1px);
+
+  display: grid;
+  place-content: center;
+}
+
+h1 {
+  font-family: 'Beth Ellen', cursive;
+  color: #EBF1FB;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 120px;
+}
+
+h1 span {
+  color: #5EEAD4;
+}
+
+p {
+ font-family: 'Spectral', serif;
+
+  color: #EBF1FB;
+  opacity: 1;
+  margin-top: 4px;
+  margin-bottom: 72px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;  
+}
+
+a {
+  font-family: 'Spectral', serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+
+  padding: 16px 32px;
+
+  color: #ffffff;
+
+}
+
+a:hover, .btn-second {
+  background-color:#5EEAD4 ;
+  border-radius: 8px;
+  text-decoration: none;
+  opacity: 1;
+  color: #ffffff;
+  transition: 70ms;
+}
+
+.btn-second:hover {
+  background: #b4e9e1;
+}
